@@ -1,0 +1,13 @@
+paso 1 : clonar repo
+
+abre opencode y ejecuta(cada paso hasta que termine el otro y recalca que el agente prueba ni intervenga en los casos de prueba )
+
+
+2. cordina a los agentes para construir el sistema del taller mecánico siguiendo estrictamente las reglas en docs reglas flujo md".
+3. Revisa siempre los cambios y, cuando sea el momento, agrégale la instrucción: "Genera las vistas y lógica sin que el agente @pruebas intervenga en los casos de prueba".
+4. Nesito que con el .opencode\maestro.md crees los modelos de datos y aplicaciones del taller mecanico basandose en los requerimientos. y recuerda que el agente de pruebas no debe tocar los casos de pruebas 
+5. necesito que implemente implementes los modelos de datos y la logica del taller siguiendo las reglas recordando siempre revisar el diff y te reitero que el agente de pruebas no debe intervenir en los casos de pruebas 
+
+
+7. abre localhost:8000/admin con las credenciales que creaste 
+8. abre el panel de , localhost:8000/ y ahi veras lo necesario para 
