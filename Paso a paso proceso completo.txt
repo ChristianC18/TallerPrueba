@@ -1,0 +1,46 @@
+MODULO 1 FUNDAMENTOS DE GIT 1
+1_Instalar git en el pc
+2_ configurar git
+	>git config --global user.name"Khriscort18"
+	>git config --global user.email"christian.cortes@alumnos.ucn.cl"
+	como comprobamos la configuracion? : git config --list
+3_Crear repositorio "mi-primer-proyecto"
+	> creamos carpeta donde trabajar con el proyecto EN EL PC para tener repositorio en 		el pc igual.
+4_entramos a la carpeta desde la termina con:
+	>cd C:\Users\preda\Desktop\REPO
+	>para saber que esta detro de ese proyecto yo pongo:
+		>dir: 1 (..) significa que el directorio esta vacio , (.) es para ir a la 		raiz del prucyecto.
+5_Clonamos repositorio a la carpeta que hicimos con : 
+	>git clone https://github.com/Khriscort18/mi-primer-proyecto.git , esto estando 		detro de la carpeta.(tiene que estar public).
+
+6_ahora para saber con cual de las ramas estoy trabajando .
+	>git branch (rama main es la princioriginpal), la idea es que uno tiene que trabajar en 		ramas distintas para que no nos afecte en el trabajo autonomo.
+7_ ahora crearemos una rama para trabajar (individual)
+	>git checkout -b christian
+
+8_se creo pero no estoy dentro de la rama , me tengo que switchearme para quedar dentro de la rama :
+	>git switch -c christian
+
+9_creamos rama nueva ej:
+	>git checkout -b feature/agregar-login(feature/agregar-login se llama la nueva rama)
+
+10_ hacemos un archivo dentro del repositorio clonado revisamos los cambbios con:
+	>git status
+11_ahora quiero agregar ese archivo A LO QUE SUBIRE DENTRO DEL REPO EN GIT HUB:
+	>git add notas.txt(nombre del archivo)
+	para subir todo de la carpeta:
+		>git add . 
+	para que todos los cambios que hice configurarlos para hacer una subida a la nuve 
+		>git commit -m "agregar login" (nombre de que hice)
+
+12_ para subir el archivo que tengo seleccionado a la rama
+	>git push origin feature/agregar-login
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+MODULO 1 FUNDAMENTOS DE GIT 2
+
+1-precono compare y hacer pull , despues hacemos clok en create pull request, y despues marge push(reescribir), despues me voy a code y me aporese notas.txt
+
+
+	
